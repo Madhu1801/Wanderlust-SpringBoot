@@ -51,7 +51,7 @@ public class ListingRequest {
     }
 
     public void setCountry(String country) {
-        country = country;
+        this.country = country;
     }
 
     public String getLocation() {
@@ -59,7 +59,7 @@ public class ListingRequest {
     }
 
     public void setLocation(String location) {
-        location = location;
+        this.location = location;
     }
 
 

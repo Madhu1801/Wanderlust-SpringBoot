@@ -20,21 +20,23 @@ public class Listings {
     private String name;
     private  String description;
     private  float price;
-    private  String Country;
-    private  String Location;
+    private  String country;
+    private  String location;
 
-    public void setId(int id) {
-        this.id = id;
-    }
     public int getId() {
         return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public void setName(String name) {
         this.name = name;
-    }
-    public String getName() {
-         return name;
     }
 
     public String getDescription() {
@@ -54,20 +56,23 @@ public class Listings {
     }
 
     public String getCountry() {
-        return Country;
+        return country;
     }
 
     public void setCountry(String country) {
-        Country = country;
+        this.country = country;
     }
 
     public String getLocation() {
-        return Location;
+        return location;
     }
 
     public void setLocation(String location) {
-        Location = location;
+        this.location = location;
     }
+
+
+
 
 
 
